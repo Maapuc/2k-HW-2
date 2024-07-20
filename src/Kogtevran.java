@@ -1,4 +1,4 @@
-public class Kogtevran extends Hogwartc {
+public class Kogtevran extends Hogwarts {
 
     public int mind;
     public int wisdom;
@@ -49,7 +49,7 @@ public class Kogtevran extends Hogwartc {
         return mind + wisdom + wit + creation;
     }
 
-    public static void beastStudent(Kogtevran kogtevranOne, Kogtevran kogtevranTwo) {
+    public static void bestStudent(Kogtevran kogtevranOne, Kogtevran kogtevranTwo) {
         if (kogtevranOne.sumPower() < kogtevranTwo.sumPower()) {
             System.out.println(kogtevranOne + " лучший Когтевранец, чем " + kogtevranTwo);
         } else if (kogtevranOne.sumPower() > kogtevranTwo.sumPower()) {

@@ -1,22 +1,22 @@
-public class Hogwartc {
+public class Hogwarts {
 
-    private String Name;
+    private String name;
     private int magicPower;
     private int transgressionDitsance;
 
 
-    public Hogwartc(String name, int magicPower, int transgressionDitsance) {
-        Name = name;
+    public Hogwarts(String name, int magicPower, int transgressionDitsance) {
+        this.name = name;
         this.magicPower = magicPower;
         this.transgressionDitsance = transgressionDitsance;
     }
 
-    public String getName() {
-        return Name;
+    public String getname() {
+        return name;
     }
 
-    public void setName(String name) {
-        Name = name;
+    public void setname(String name) {
+        name = name;
     }
 
     public int getMagicPower() {
@@ -42,7 +42,7 @@ public class Hogwartc {
     public static void powerStudent(Griffindor griffindorOne, Slizarin slizarinTwo) {
         if (griffindorOne.sumPoweraMagic() < slizarinTwo.sumPoweraMagic()) {
             System.out.println(griffindorOne + " обладает бОльшей мощностью магии, чем " + slizarinTwo);
-        } else if (griffindorOne.sumPower() > slizarinTwo.sumPower()) {
+        } else if (griffindorOne.sumPoweraMagic() > slizarinTwo.sumPoweraMagic()) {
             System.out.println(griffindorOne + " обладает бОльшей мощностью магии, чем " + slizarinTwo);
         } else {
             System.out.println(griffindorOne + " они равны " + slizarinTwo);
@@ -51,7 +51,7 @@ public class Hogwartc {
 
     @Override
     public String toString() {
-        return "Name='" + Name + '\'' +
+        return name + '\'' +
                 ", magicPower=" + magicPower +
                 ", transgressionDitsance=" + transgressionDitsance;
     }

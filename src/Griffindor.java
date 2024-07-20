@@ -1,4 +1,4 @@
-public class Griffindor extends Hogwartc {
+public class Griffindor extends Hogwarts {
 
     private int nobility;
     private int honor;
@@ -40,7 +40,7 @@ public class Griffindor extends Hogwartc {
         return nobility + honor + bravery;
     }
 
-    public static void beastStudent(Griffindor griffindorOne, Griffindor griffindorTwo) {
+    public static void bestStudent(Griffindor griffindorOne, Griffindor griffindorTwo) {
         if (griffindorOne.sumPower() < griffindorTwo.sumPower()) {
             System.out.println(griffindorOne + " лучший Гриффиндорец, чем " + griffindorTwo);
         } else if (griffindorOne.sumPower() > griffindorTwo.sumPower()) {
