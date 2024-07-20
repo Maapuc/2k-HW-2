@@ -1,4 +1,4 @@
-public class Puffedyi extends Hogwartc {
+public class Puffedyi extends Hogwarts {
 
     public int hardWorking;
     public int loyalty;
@@ -39,7 +39,7 @@ public class Puffedyi extends Hogwartc {
         return hardWorking + loyalty + honesty;
     }
 
-    public static void beastStudent(Puffedyi puffedyiOne, Puffedyi puffedyiTwo) {
+    public static void bestStudent(Puffedyi puffedyiOne, Puffedyi puffedyiTwo) {
         if (puffedyiOne.sumPower() < puffedyiTwo.sumPower()) {
             System.out.println(puffedyiOne + " лучший Когтевранец, чем " + puffedyiTwo);
         } else if (puffedyiOne.sumPower() > puffedyiTwo.sumPower()) {

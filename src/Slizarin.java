@@ -1,4 +1,4 @@
-public class Slizarin extends Hogwartc {
+public class Slizarin extends Hogwarts {
 
     public int cuning;
     public int determination;
@@ -66,7 +66,7 @@ public class Slizarin extends Hogwartc {
         return cuning + lustPower + resourcefulness + ambition + determination;
     }
 
-    public static void beastStudent(Slizarin slizarinOne, Slizarin slizarinTwo) {
+    public static void bestStudent(Slizarin slizarinOne, Slizarin slizarinTwo) {
         if (slizarinOne.sumPower() < slizarinTwo.sumPower()) {
             System.out.println(slizarinOne + " лучший Когтевранец, чем " + slizarinTwo);
         } else if (slizarinOne.sumPower() > slizarinTwo.sumPower()) {

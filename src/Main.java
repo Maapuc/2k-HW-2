@@ -22,12 +22,12 @@ public class Main {
         slizarin[1] = new Slizarin("Грэхэм Монтегю", 79, 60, 45, 45, 56, 95, 85);
         slizarin[2] = new Slizarin("Грегори Гойл", 49, 50, 76, 34, 87, 84, 75);
 
-        Griffindor.beastStudent(griffindor[0], griffindor[1]);
-        Kogtevran.beastStudent(kogtevran[1], kogtevran[2]);
-        Puffedyi.beastStudent(puffedyi[0], puffedyi[1]);
-        Slizarin.beastStudent(slizarin[2], slizarin[1]);
+        Griffindor.bestStudent(griffindor[0], griffindor[1]);
+        Kogtevran.bestStudent(kogtevran[1], kogtevran[2]);
+        Puffedyi.bestStudent(puffedyi[0], puffedyi[1]);
+        Slizarin.bestStudent(slizarin[2], slizarin[1]);
 
-        Hogwartc.powerStudent(griffindor[0],slizarin[0]);
+        Hogwarts.powerStudent(griffindor[0],slizarin[0]);
 
     }
 
